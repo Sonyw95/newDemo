@@ -66,6 +66,7 @@
         </plugins>
     </build>
 
+    <!--
     <dependencies>
         <dependency>
             <groupId>com.app.demo</groupId>
@@ -74,4 +75,5 @@
             <type>zip</type>
         </dependency>
     </dependencies>
+    -->
 </project>

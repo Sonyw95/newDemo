@@ -55,10 +55,12 @@
                     <name>appDemo.ui.apps</name>
                     <packageType>application</packageType>
                     <repositoryStructurePackages>
+                        <!--
                         <repositoryStructurePackage>
                             <groupId>com.app.demo</groupId>
                             <artifactId>appDemo.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
+                        -->
                     </repositoryStructurePackages>
                     <dependencies>
                         <dependency>
@@ -120,21 +122,14 @@
             <version>${project.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.app.demo</groupId>
-            <artifactId>appDemo.ui.frontend</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-
+        <!--
         <dependency>
             <groupId>com.app.demo</groupId>
             <artifactId>appDemo.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
+        -->
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
